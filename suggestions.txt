@@ -3,18 +3,11 @@
 
     **(2) the laptop image hasn't loaded yet on my end (the image file isn't in the assets folder)
 
-    (3) after the laptop image is displayed, maybe move it down a bit so it won't block the text "// Girls Girls Girls"
+    **(3) add a feature where pressing the left and right keys can also do the rotation transition
+
+    **(4) keep the nav bar in the same location as when viewed in the other files
 
 
-    (4) during the rotation transition, the "// Girls Girls Girls" text is disoriented and currently the page must be refreshed; should keep the position of the text constant
-
-    (5) maybe not block part of the giant text with the images; should resize the images and update the transition accordingly (if applicable)
-
-    **(6) add a feature where pressing the left and right keys can also do the rotation transition
-
-    **(7) keep the nav bar in the same location as when viewed in the other files
-
-
-** overall it looks amazing! all of these suggestions don't have to be implemented as it depends on personal preferences but i'll try to implement the last two ones (and can you put the laptop image in the folder)
+** overall it looks amazing! all of these suggestions don't have to be implemented as it depends on personal preferences 
 
 ** i also think the website looks pretty good even without the suggestions :)
