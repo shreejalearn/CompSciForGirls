@@ -1,3 +1,11 @@
+/* Add this to your styles.css file */
+a.link {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+
+
 body{
   margin:0;
   background-color:#97C4B8;
