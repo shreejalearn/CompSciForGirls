@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CompSci For Girls</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
+</head>
+<body class="max-w-[2800px] mx-auto">
+
+    <!-- Header section with a background image -->
+    <header class="min-h-full bg-hero md:bg-hero-big bg-cover bg-center bg-no-repeat grid items-start">
+
+        <!-- Nav Menu -->
+        <nav class="relative p-6 flex justify-center items-center">
+
+            <!-- Nav menu options for Desktop -->
+            <div>
+                <img src="https://bit.ly/3wUqyZo" alt="icon-hamburger" id="menu-btn" class="cursor-pointer md:hidden">
+
+                <ul class="hidden md:flex justify-center items-center gap-8 text-white">
+                    <li><a href="index.html" class="links">Home</a></li>
+                    <li><a href="chapters.html" class="links">Chapters</a></li>
+                    <li><a href="projects.html" class="links">Projects</a></li>
+                    <li><a href="apply.html" class="links">Apply</a></li>
+                    <li><a href="about.html" class="links">About</a></li>
+                </ul>
+            </div>
+
+            <!-- Nav menu options for Mobile -->
+            <section id="mobile-menu" class="absolute hidden md:hidden top-24 text-center w-[88%] left-0 right-0 mx-auto bg-white">
+                <div class="triangle"></div>
+                <ul class="space-y-6 py-6 text-Dark-grayish-blue text-lg font-semibold">
+                    <li><a href="index.html" class="links">Home</a></li>
+                    <li><a href="chapters.html" class="links">Chapters</a></li>
+                    <li><a href="projects.html" class="links">Projects</a></li>
+                    <li><a href="contact.html" class="links">Contact</a></li>
+                </ul>
+            </section>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="grid justify-items-center gap-24 text-center">
+            <h1 class="font-Passion text-white text-4xl mobile:text-5xl md:text-6xl font-black tracking-widest effect">ABOUT US</h1>
+            <img class="arrow" src="https://bit.ly/40pVtul" alt="arrow-down">
+        </section>
+
+    </header>
+
+    <main>
+        <!-- Mission Statement -->
+        <section class="grid md:grid-cols-2">
+            <div class="px-6 py-12 text-center mx-auto">
+                <h1 class="text-3xl mobile:text-5xl text-green">MISSION STATEMENT</h1>
+                <p class="text-Dark-grayish-blue text-xs md:text-sm lg:text-base xl:text-lg">
+                    CompSci for Girls is an initiative that aims to bring together a community of Women in technology related fields so that we can collaborate on ideas and communicate our struggles so that the next generation of women are both excited and comfortable to be in this male dominated space.
+                </p>
+            </div>
+        </section>
+
+
+        <!--Bio1-->
+        <section class="grid md:grid-cols-2">
+            <div class="px-6 py-12 grid place-items-center">
+                <h1 class="text-3xl mobile:text-5xl text-red">Saachi</h1>
+                <p class="text text-Dark-grayish-blue">
+                    Hey there! I’m Saachi and I’m interested in all things tech, fiction and fashion. Being 17 and a high school senior means that I’m currently listening to the entire Taylor Swift discography while finding time to work on my coding projects.
+                </p>
+            </div>
+        </section>
+
+<!-- Bio2 -->
+<section class="grid md:grid-cols-2">
+    <div class="px-6 py-12 grid place-items-center md:col-start-1 md:row-start-1">
+        <h1 class="text-3xl mobile:text-5xl text-blue">Prisha</h1>
+        <p class="text text-Dark-grayish-blue">
+            Hey I’m Prisha and I’m extremely passionate about engineering and mobile app development! I love CompSciForGirls’ mission and am working diligently towards expanding our community of women in tech!
+        </p>
+    </div>
+    <div class="px-6 py-12 grid place-items-center">
+        <img src="assets/pgHeadshot_CSFG.jpg" alt="Prisha's Headshot" class="max-w-full rounded-lg w-1/2 h-auto">
+    </div>
+</section>
+
+
+
+
+
+
+    </main>
+
+    <footer class="bg-light-moderate-cyan px-4 py-12">
+        <div class="max-w-md space-y-8 mx-auto">
+            <h1 class="font-mono text-2xl mobile:text-2xl text-center text-white">
+                <code class="text-white">Made By: Shreya Thirumala</code>
+            </h1>
+        </div>
+    </footer>
+
+    <script src="script3.js"></script>
+</body>
+</html>

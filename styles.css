@@ -36,7 +36,21 @@ body {
     z-index: 3;
     padding-top: 5%;
     font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+    
 }
+
+.about-title {
+    text-align: center;
+    margin-top: 1rem; 
+    font-size: xx-large;
+    color: rgb(4, 59, 47);
+}
+
+.about-title + p {
+    text-align: center;
+    margin-top: 0.1rem; 
+}
+
 .nav>div{
     width:100%;
     padding:0rem 1rem;
