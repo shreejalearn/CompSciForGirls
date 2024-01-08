@@ -57,3 +57,18 @@ text-shadow: 5px 5px 0px #eb452b,
   --tw-bg-opacity: 1;
   background-color:#D1B5B8;
 }
+
+
+.prisha{
+  height: 400px;
+  border-radius: 15px;
+  border-color: #a8ccb4;
+  border-width: 3px;
+}
+
+.wistem {
+  height: 400px;
+  border-radius: 200px;
+  border-color: #eea8bf;
+  border-width: 3px;
+}
